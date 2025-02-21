@@ -1,10 +1,11 @@
-# 🎥 Local YouTube Video Summarizer 
+# 🎥 Local Ollama YouTube Video Summarizer 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+Build a YouTube video summarizer using Flask and Ollama AI, running 100% on your local machine. Get concise video summaries without relying on cloud services or API keys. Perfect for privacy-conscious users who want fast, AI-powered insights from any YouTube video!"
+
 (99.9% generated code, prompt, README, 0.01% human effort for copy-pasting)
 
-A simple Ollama baseed YouTube video summarizer that runs entirely on your local machine. Transform any YouTube video into concise summaries using local AI models - no API keys or cloud services required!
 
 ![App Screenshot](https://i.imgur.com/hty0wiI.png)
 
