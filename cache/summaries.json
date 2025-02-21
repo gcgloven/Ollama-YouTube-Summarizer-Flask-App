@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-02-21T22:05:53",
+    "url": "https://www.youtube.com/watch?v=LP5OCa20Zpg",
+    "model": "tulu3:latest",
+    "prompt_id": 1,
+    "prompt_name": "Default Summarizing Prompt",
+    "title": "The Future of AI Agents: Insights and Advice for Developers",
+    "summary": "The discussion centered on the current state and future potential of AI agents in various contexts—ranging from business automation to consumer interactions—and provided insights into practical approaches for developers looking to leverage these technologies. Key points included:\n\n1. **Verification**: The importance of having mechanisms to verify the actions taken by AI agents, especially crucial when automating tasks that can have significant financial or personal impact (e.g., booking vacations).\n\n2. **Incremental Progression**: Understanding that while full-scale automation and delegation to AI agents might be aspirational for complex consumer tasks like planning a vacation, gradual build-up of context and preferences over time will enhance the reliability and usefulness of these systems.\n\n3. **Measurements and Feedback Loops**: The advice to developers was clear: establish clear metrics to measure the effectiveness and impact of the AI agents developed. This ensures continuous improvement based on actual outcomes rather than assumptions.\n\n4. **Building Future-Proof Solutions**: Encouragement for developers to create solutions that can evolve with improving models, such as focusing on robust orchestration around AI model calls which can benefit from increased capabilities over time.\n\n5. **Optimism and Pragmatism about Model Improvements**: The speakers suggested an optimistic view towards the development of AI agents but a pragmatic approach when designing products or services—building in ways that leverage improvements rather than being threatened by them.\n\n6. **Contextual Understanding**: Acknowledging that while automating tasks can be highly beneficial, understanding and leveraging context (personal preferences, situational nuances) is crucial for developing effective and user-friendly AI agents, particularly in consumer contexts.\n\nOverall, the conversation emphasized careful planning, continuous measurement, and a forward-looking approach to building with AI agents in mind—focusing on creating systems that not only scale with technological advancements but also offer significant value in their current state."
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-02-21T22:22:03",
+    "url": "https://www.youtube.com/watch?v=U3aSopinI-k&ab_channel=%E7%8E%8B%E6%9E%97%E6%9E%97Eileen",
+    "model": "qwen2.5:7b",
+    "prompt_id": 2,
+    "prompt_name": "中文视频摘要",
+    "title": "Happiness Hormones: Dopamine vs Endorphins",
+    "summary": "\n### 摘要\n\n**视频主题**: 本视频讨论了两种与长期幸福相关的荷尔蒙——内啡肽和多巴胺，并解释它们的作用机制及其区别。\n\n**关键信息**: \n- **多巴胺**: 多巴胺提供即时快感，但过多依赖会导致成瘾。过度追求多巴胺会让人感到不安并寻求更多刺激。\n- **内啡肽**: 内啡肽产生长期的幸福感，通过延迟满足训练帮助人们形成健康习惯。例如，在跑马拉松过程中，内啡肽能带来持久的能量和愉悦。\n\n**核心事件**: 通过类比药物成瘾过程来解释多巴胺的工作机制，并强调不应依赖外在刺激而忽视长期目标的重要性。\n\n**结论/观点**:\n- **延迟满足的重要性**: 建议通过培养长期目标（如学习新技能、冥想等）来获得持续的幸福感，而不是仅追求即时满足。\n- **正确使用内啡肽和多巴胺**: 在合适的情境下利用这两种荷尔蒙产生健康的快乐感，并避免过度依赖外在刺激导致成瘾。\n"
+  }
+]

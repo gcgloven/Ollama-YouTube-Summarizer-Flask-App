@@ -1,0 +1,38 @@
+<!-- youtube_summarizer/templates/edit_summary.html -->
+{% extends "base.html" %}
+{% block title %}Regenerate Summary{% endblock %}
+{% block content %}
+<h1>Regenerate Summary</h1>
+<p><a href="{{ url_for('main_bp.index') }}">Back to Home</a></p>
+
+<form method="POST">
+  <div class="form-group">
+    <label for="video_url">YouTube URL</label>
+    <input type="text" class="form-control" id="video_url" name="video_url" value="{{ record.url }}" readonly>
+  </div>
+
+  <div class="form-group">
+    <label for="model_name">LLM Model</label>
+    <select class="form-control" name="model_name">
+      {% for m in model_names %}
+        <option value="{{ m }}" {% if m == record.model %}selected{% endif %}>{{ m }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="prompt_id">Prompt</label>
+    <select class="form-control" name="prompt_id">
+      {% for p in prompts %}
+        <option value="{{ p.id }}"
+          {% if p.id == record.prompt_id %} selected {% endif %}>
+          {{ p.name }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <button type="submit" class="btn btn-primary" name="action" value="regenerate">Regenerate</button>
+  <a href="{{ url_for('main_bp.index') }}" class="btn btn-secondary">Cancel</a>
+</form>
+{% endblock %}

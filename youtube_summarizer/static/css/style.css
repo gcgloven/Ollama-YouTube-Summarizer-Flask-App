@@ -1,0 +1,12 @@
+/* youtube_summarizer/static/css/style.css */
+body {
+    font-family: "Helvetica", sans-serif;
+  }
+  .card {
+    border-radius: 6px;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  

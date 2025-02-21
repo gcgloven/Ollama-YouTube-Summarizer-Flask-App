@@ -1,0 +1,26 @@
+<!-- youtube_summarizer/templates/edit_prompt.html -->
+{% extends "base.html" %}
+{% block title %}Edit Prompt{% endblock %}
+{% block content %}
+<h1>Edit Prompt</h1>
+<p><a href="{{ url_for('prompt_bp.manage_prompts') }}">Back to Prompts</a></p>
+
+<form method="POST">
+  <div class="form-group">
+    <label for="prompt_name">Name</label>
+    <input type="text" class="form-control" id="prompt_name" name="prompt_name" 
+           value="{{ prompt.name }}" 
+           {% if prompt.protected %}readonly{% endif %}>
+  </div>
+  <div class="form-group">
+    <label for="prompt_content">Content</label>
+    <textarea class="form-control" id="prompt_content" name="prompt_content" rows="5"
+              {% if prompt.protected %}readonly{% endif %}>{{ prompt.content }}</textarea>
+  </div>
+  {% if prompt.protected %}
+    <p class="text-muted">This prompt is protected. You cannot edit it.</p>
+  {% else %}
+    <button class="btn btn-primary" type="submit">Save Changes</button>
+  {% endif %}
+</form>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!-- youtube_summarizer/templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}YouTube Summaries{% endblock %}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="{{ url_for('main_bp.index') }}">Ollama YouTube Summarizer</a>
+</nav>
+<div class="container my-4">
+  {% block content %}
+  {% endblock %}
+</div>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

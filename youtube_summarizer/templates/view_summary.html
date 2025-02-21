@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Summary #{{ record.id }}{% endblock %}
+{% block content %}
+<h2>{{ record.title }}</h2>
+<p><strong>Video:</strong> <a href="{{ record.url }}" target="_blank">{{ record.url }}</a></p>
+<p><strong>Model:</strong> {{ record.model }}</p>
+<p><strong>Prompt:</strong> {{ record.prompt_name }}</p>
+
+<h5>Full Summary</h5>
+<div class="summary-container" id="markdown-content"></div>
+
+<hr>
+<a href="{{ url_for('main_bp.index') }}" class="btn btn-secondary">Back to Home</a>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const rawMarkdown = `{{ record.summary | safe }}`; // Ensure safe rendering
+        document.getElementById("markdown-content").innerHTML = marked.parse(rawMarkdown);
+    });
+</script>
+
+<style>
+    .summary-container {
+        max-width: 95%;
+        overflow-x: auto;
+        word-wrap: break-word;
+    }
+
+    .summary-container pre {
+        background-color: #f8f9fa;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+
+    .summary-container code {
+        background-color: #e9ecef;
+        padding: 2px 4px;
+        border-radius: 3px;
+    }
+</style>
+{% endblock %}
