@@ -1,8 +1,8 @@
-# 🎥 Local YouTube Video Summarizer
-
+# 🎥 Local YouTube Video Summarizer 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+(99.9% generated code, prompt, README, 0.01% human effort for copy-pasting)
 
 A powerful, privacy-focused YouTube video summarizer that runs entirely on your local machine. Transform any YouTube video into concise summaries using local AI models - no API keys or cloud services required!
 
