@@ -4,7 +4,7 @@
 [![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 (99.9% generated code, prompt, README, 0.01% human effort for copy-pasting)
 
-A powerful, privacy-focused YouTube video summarizer that runs entirely on your local machine. Transform any YouTube video into concise summaries using local AI models - no API keys or cloud services required!
+A simple Ollama baseed YouTube video summarizer that runs entirely on your local machine. Transform any YouTube video into concise summaries using local AI models - no API keys or cloud services required!
 
 ![App Screenshot](https://i.imgur.com/hty0wiI.png)
 
