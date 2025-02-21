@@ -191,6 +191,6 @@ Give a ⭐️ if this project helped you!
 
 ## 📫 Contact
 
-Your Name - [@WhiteWolfBay](https://twitter.com/yourtwitter)
+Your Name - [@WhiteWolfBay](https://closeai.com/)
 
 Project Link: [https://github.com/gcgloven/OllamaYouTubeSummarizerFlaskApp](https://github.com/gcgloven/OllamaYouTubeSummarizerFlaskApp)
